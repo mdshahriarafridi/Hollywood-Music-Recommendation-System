@@ -1,2 +1,127 @@
-# music-recommendation-app-python
-🎵 Lyrics-Based Music Recommendation System A content-based music recommender built using TF-IDF and cosine similarity on song lyrics. Built with Python and Streamlit for fast, interactive song suggestions.
+# 🎶 Lyrics-Based Music Recommendation App
+
+A **content-based music recommender** system that suggests songs based on lyrical similarity. Powered by **TF-IDF vectorization** and **cosine similarity**, this app analyzes song lyrics to find and recommend tracks with similar themes and content.
+
+Built with **Python** and **Streamlit** for a simple and responsive user interface.
+
+---
+
+## 💡 What It Does
+
+Instead of relying on user behavior or genre tags, this app focuses purely on **lyrics** to suggest songs that share similar textual content. Whether you're looking for poetic vibes, emotional depth, or lyrical storytelling, this app helps you discover music that matches your preferences.
+
+---
+
+## 🧰 Technologies Used
+
+- **Python** – Core programming language
+- **Streamlit** – Front-end interface
+- **Scikit-learn** – TF-IDF vectorization & cosine similarity
+- **Pandas** – Data manipulation
+- **NumPy** – Numerical operations
+
+---
+
+## ⚙️ How It Works
+
+1. **Preprocess Lyrics:** Clean and prepare text data from your dataset.
+2. **Vectorize:** Convert lyrics into numerical vectors using TF-IDF.
+3. **Compute Similarity:** Use cosine similarity to compare songs.
+4. **Recommend:** Display the top N songs most similar to the input song.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/mdshahriarafridi/Hollywood-Music-Recommendation-System.git
+cd Hollywood-Music-Recommendation-System
+````
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the App
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🗂️ Project Structure
+
+```
+Hollywood-Music-Recommendation-System/
+│
+├── app.py                # Streamlit front-end
+├── recommender.py        # Core recommendation logic
+├── data/
+│   └── songs.csv         # Lyrics dataset
+├── requirements.txt      # Required libraries
+└── README.md             # Project documentation
+```
+
+---
+
+## 📝 Dataset Format
+
+Make sure your `songs.csv` file contains:
+
+* `title` – Song title
+* `artist` – Artist name (optional)
+* `lyrics` – Full song lyrics
+
+Example:
+
+```csv
+title,artist,lyrics
+Shape of You,Ed Sheeran,"The club isn't the best place to find a lover..."
+Blinding Lights,The Weeknd,"I've been tryna call..."
+```
+
+---
+
+## 📌 Features
+
+* Recommend songs based on lyric similarity
+* Fast and interactive UI using Streamlit
+* No need for user history or genres
+* Easy to extend or integrate with external APIs
+
+---
+
+## 🎯 Future Improvements
+
+* Lyrics preprocessing enhancements (e.g., lemmatization, stop word removal)
+* Integration with music APIs (e.g., Spotify, Genius)
+* Option to upload your own dataset
+* Save and share recommendations
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♂️ Author
+
+Built with ❤️ by **Md Shahriar Afridi**
+🔗 [GitHub Repository](https://github.com/mdshahriarafridi/Hollywood-Music-Recommendation-System)
+
+---
+
+Feel free to fork, contribute, or use this as a base for your own music recommendation experiments! 🎧
+
+```
+
+---
+
+Would you like me to generate a matching `requirements.txt` or a basic `recommender.py` template?
+```
