@@ -90,17 +90,4 @@ Hollywood-Music-Recommendation-System/
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 🙋‍♂️ Author
-
-Built with ❤️ by **Md Shahriar Afridi**
-🔗 [GitHub Repository](https://github.com/mdshahriarafridi/Hollywood-Music-Recommendation-System)
-
----
-
 Feel free to fork, contribute, or use this as a base for your own music recommendation experiments! 🎧
