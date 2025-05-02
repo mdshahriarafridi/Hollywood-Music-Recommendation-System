@@ -66,26 +66,6 @@ Hollywood-Music-Recommendation-System/
 └── README.md             # Project documentation
 ```
 
----
-
-## 📝 Dataset Format
-
-Make sure your `songs.csv` file contains:
-
-* `title` – Song title
-* `artist` – Artist name (optional)
-* `lyrics` – Full song lyrics
-
-Example:
-
-```csv
-title,artist,lyrics
-Shape of You,Ed Sheeran,"The club isn't the best place to find a lover..."
-Blinding Lights,The Weeknd,"I've been tryna call..."
-```
-
----
-
 ## 📌 Features
 
 * Recommend songs based on lyric similarity
@@ -118,10 +98,3 @@ Built with ❤️ by **Md Shahriar Afridi**
 ---
 
 Feel free to fork, contribute, or use this as a base for your own music recommendation experiments! 🎧
-
-```
-
----
-
-Would you like me to generate a matching `requirements.txt` or a basic `recommender.py` template?
-```
