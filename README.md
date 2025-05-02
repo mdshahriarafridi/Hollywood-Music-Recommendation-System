@@ -1,4 +1,4 @@
-# 🎶 Lyrics-Based Music Recommendation App
+# 🎶 Hollywood Music Recommendation System
 
 A **content-based music recommender** system that suggests songs based on lyrical similarity. Powered by **TF-IDF vectorization** and **cosine similarity**, this app analyzes song lyrics to find and recommend tracks with similar themes and content.
 
@@ -30,6 +30,11 @@ Instead of relying on user behavior or genre tags, this app focuses purely on **
 4. **Recommend:** Display the top N songs most similar to the input song.
 
 ---
+
+## 🚀 Getting Started
+
+![Screenshot_181](https://github.com/user-attachments/assets/f0235ea3-7dbe-41ef-9482-fe1b083299a0)
+![Screenshot_180](https://github.com/user-attachments/assets/52aa42fb-1851-475d-82fa-fe9ed37e2ff8)
 
 ## 🚀 Getting Started
 
